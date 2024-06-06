@@ -1,0 +1,427 @@
+/* Common styles */
+.App {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Books container */
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Individual book card */
+.book {
+  flex: 0 1 300px; /* Adjust width as needed */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5; /* Light gray background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Book cover */
+.book img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+/* Delete and update buttons */
+.delete,
+.update {
+  border: none;
+  padding: 8px 16px;
+  background-color: #ff6b6b;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px; /* Add space between buttons and book info */
+}
+
+.update {
+  background-color: #74b9ff;
+  margin-left: 10px; /* Add space between update and delete buttons */
+}
+
+.delete:hover,
+.update:hover {
+  background-color: #ff5252;
+}
+
+/* Form styles */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px; /* Limit form width */
+  margin: 0 auto; /* Center form horizontally */
+}
+
+/* Input fields */
+.input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  border-color: #74b9ff;
+}
+
+/* Form button */
+.formButton {
+  padding: 12px;
+  border: none;
+  background-color: #fdcb6e;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formButton:hover {
+  background-color: #ffa801;
+}
+
+
+/* styles.css */
+
+.home-container {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.home-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.home-container p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.nav-button:hover {
+  background-color: #0056b3;
+}
+
+
+/* styles.css */
+
+/* Books container */
+.books-container {
+  padding: 20px;
+}
+
+/* Add New Book section */
+.add-book-section {
+  margin-bottom: 20px;
+}
+
+.add-book-section input {
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-book-section button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-book-section button:hover {
+  background-color: #0056b3;
+}
+
+/* Books List section */
+.books-list {
+  list-style: none;
+  padding: 0;
+}
+
+.books-list li {
+  margin-bottom: 10px;
+}
+
+.books-list li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.books-list li button:hover {
+  background-color: #c82333;
+}
+
+
+/* styles.css */
+
+/* Authors container */
+.authors-container {
+  padding: 20px;
+}
+
+/* Add New Author section */
+.add-author-section {
+  margin-bottom: 20px;
+}
+
+.add-author-section input {
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-author-section button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-author-section button:hover {
+  background-color: #0056b3;
+}
+
+/* Authors List section */
+.authors-list {
+  list-style: none;
+  padding: 0;
+}
+
+.authors-list li {
+  margin-bottom: 10px;
+}
+
+.authors-list li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.authors-list li button:hover {
+  background-color: #c82333;
+}
+
+
+/* styles.css */
+
+/* Categories container */
+.categories-container {
+  padding: 20px;
+}
+
+/* Add New Category section */
+.add-category-section {
+  margin-bottom: 20px;
+}
+
+.add-category-section input {
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-category-section button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-category-section button:hover {
+  background-color: #0056b3;
+}
+
+/* Categories List section */
+.categories-list {
+  list-style: none;
+  padding: 0;
+}
+
+.categories-list li {
+  margin-bottom: 10px;
+}
+
+.categories-list li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.categories-list li button:hover {
+  background-color: #c82333;
+}
+
+/* styles.css */
+
+/* Borrowers container */
+.borrowers-container {
+  padding: 20px;
+}
+
+/* Add New Borrower section */
+.add-borrower-section {
+  margin-bottom: 20px;
+}
+
+.add-borrower-section input {
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-borrower-section button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-borrower-section button:hover {
+  background-color: #0056b3;
+}
+
+/* Borrowers List section */
+.borrowers-list {
+  list-style: none;
+  padding: 0;
+}
+
+.borrowers-list li {
+  margin-bottom: 10px;
+}
+
+.borrowers-list li button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.borrowers-list li button:hover {
+  background-color: #c82333;
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.navigation-links a {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.navigation-links a:hover {
+  background-color: #0056b3;
+}
+
+.authors-list li input {
+  margin-right: 10px;
+  margin-bottom: 5px; /* Add margin-bottom for spacing */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Update button */
+.authors-list li button {
+  margin-top: 5px;
+  margin-bottom: 10px; /* Add margin-bottom for spacing */
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Add margin to the bottom of the Authors List */
+.authors-list {
+  margin-bottom: 20px;
+}
